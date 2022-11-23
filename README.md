@@ -1,1 +1,2 @@
-# ilinet_data_scraper
+# ILINet Data Scraper
+> The goal of this repository is to pull data from the CDC's FluView Interactive dashboard to retrieve reported ILI cases in the form of a CSV file. A link to the CDC's repository can be found [here](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html).
