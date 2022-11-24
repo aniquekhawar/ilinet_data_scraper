@@ -18,3 +18,19 @@ DevTools listening on ws://127.0.0.1:34027/devtools/browser/b5c90f4f-a6d2-498c-9
 1669226206212	Marionette	INFO	Stopped listening on port 40105
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1669257154363	geckodriver	INFO	Listening on 127.0.0.1:60009
+1669257154871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "38943" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileftIYjy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1669257155549	Marionette	INFO	Marionette enabled
+1669257155555	Marionette	INFO	Listening on port 37595
+Read port: 37595
+WebDriver BiDi listening on ws://127.0.0.1:38943
+1669257155736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileftIYjy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38943/devtools/browser/22b454a4-8fea-474a-a0ee-912abebd45cf
+[Parent 1697, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-aGImVB/firefox-107.0+build2/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1697): GLib-GObject-CRITICAL **: 02:33:03.628: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1669257191595	Marionette	INFO	Stopped listening on port 37595
