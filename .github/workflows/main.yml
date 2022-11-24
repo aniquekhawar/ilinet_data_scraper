@@ -3,7 +3,7 @@ name: ilinet-scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 01 * * *' # runs at 9 AM EST daily
+    - cron: '00 14 * * *' # runs at 9 AM EST daily
 
 jobs:
   build:
