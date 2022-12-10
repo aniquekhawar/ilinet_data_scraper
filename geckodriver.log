@@ -279,3 +279,19 @@ DevTools listening on ws://127.0.0.1:57647/devtools/browser/15695d3b-459d-4c17-a
 
 (firefox:1719): GLib-GObject-CRITICAL **: 14:13:57.766: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1670595245321	Marionette	INFO	Stopped listening on port 34875
+1670681528944	geckodriver	INFO	Listening on 127.0.0.1:55009
+1670681529453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSBPMJw"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670681533801	Marionette	INFO	Marionette enabled
+1670681533812	Marionette	INFO	Listening on port 44397
+Read port: 44397
+WebDriver BiDi listening on ws://127.0.0.1:58761
+1670681534634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSBPMJw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58761/devtools/browser/5805e29a-56d9-4628-b64f-da77726f1803
+[Parent 1729, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-IO1rhV/firefox-107.0.1+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1729): GLib-GObject-CRITICAL **: 14:12:43.436: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1670681572419	Marionette	INFO	Stopped listening on port 44397
