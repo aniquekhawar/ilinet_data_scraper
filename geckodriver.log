@@ -327,3 +327,26 @@ DevTools listening on ws://127.0.0.1:57207/devtools/browser/87ee3333-20c5-4498-a
 
 (firefox:1721): GLib-GObject-CRITICAL **: 14:13:51.183: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1670854439271	Marionette	INFO	Stopped listening on port 35283
+1670940891909	geckodriver	INFO	Listening on 127.0.0.1:46375
+1670940892485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "51273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAfpI17"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670940917699	Marionette	INFO	Marionette enabled
+1670940917751	Marionette	INFO	Listening on port 34117
+Read port: 34117
+Read port: 34117
+Read port: 34117
+Read port: 34117
+WebDriver BiDi listening on ws://127.0.0.1:51273
+1670940921859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAfpI17/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51273/devtools/browser/327f4614-7e04-4387-9230-f59703bc4bcf
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+[Parent 1835, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-ew3Aol/firefox-108.0+build2/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1835): GLib-GObject-CRITICAL **: 14:16:06.556: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1670940974341	Marionette	INFO	Stopped listening on port 34117
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
