@@ -350,3 +350,20 @@ ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission den
 (firefox:1835): GLib-GObject-CRITICAL **: 14:16:06.556: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1670940974341	Marionette	INFO	Stopped listening on port 34117
 ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+1671027182049	geckodriver	INFO	Listening on 127.0.0.1:33549
+1671027182561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "38111" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilec5liyl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027189643	Marionette	INFO	Marionette enabled
+1671027189657	Marionette	INFO	Listening on port 40533
+Read port: 40533
+Read port: 40533
+WebDriver BiDi listening on ws://127.0.0.1:38111
+1671027191164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec5liyl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38111/devtools/browser/a8bda45c-1c8c-4ad6-a19c-8af3b8894008
+[Parent 1722, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-IO1rhV/firefox-107.0.1+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1722): GLib-GObject-CRITICAL **: 14:13:42.703: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1671027230382	Marionette	INFO	Stopped listening on port 40533
